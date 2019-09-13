@@ -1,0 +1,15 @@
+CREATE DATABASE sdoosedb;
+
+use sdoosedb;
+
+create table user(
+idUser int primary key auto_increment not null,
+nameUser varchar(30) not null,
+passwordUser varchar(50) not null);
+
+create table admin(
+idAdmin int primary key auto_increment not null,
+nameAdmin varchar(30) not null,
+passwordAdmin varchar(50) not null);
+
+insert into admin values(null, 'admin', 'adm00');

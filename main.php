@@ -13,10 +13,10 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon">
-          <i class="fas fa-ambulance"></i>
+        <div class="sidebar sidebar-brand-logo" style="width: 19.5px; height: 7.4px;">
+          
         </div>
-        <div class="sidebar-brand-text mx-3">SDOOSE<sup>v.1</sup></div>
+        <!--<div class="sidebar-brand-text mx-3">SDOOSE<sup>v.1</sup></div>-->
       </a>
 
       <!-- Divider -->

@@ -39,6 +39,11 @@
       height:700px;
       width:1000px;
     }
+
+    /*#logo-sdoose {
+      width: 195px;
+      height: 74px;
+    }    */
   </style>
 </head>
 
@@ -66,7 +71,7 @@
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9deBI67mLyog8YX4ZOQMOrCpR4Kn4knM&callback=initMap" type="text/javascript"></script>
   </div> <!-- End of Main Content -->
 
-  <!--<?php //include 'footer.php' ?> --> <!-- include footer layout of sdoose -->
+  <?php include 'validatelogout.php' ?> <!-- include footer layout of sdoose -->
   <!-- the footer layout should be included out of main content. -->
 
 
